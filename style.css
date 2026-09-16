@@ -653,7 +653,9 @@ VALUES ↓
     flex-direction: row;
 }
 
-
+#values .container {
+    padding-top: 0;
+}
 
 .value__img--wrapper {
     border-radius: 50%;
@@ -670,6 +672,7 @@ VALUES ↓
 
 .btn__values {
     margin-top: 48px;
+    margin-bottom: 48px;
 }
 
 #values .section__title {
