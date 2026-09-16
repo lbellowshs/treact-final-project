@@ -415,10 +415,13 @@ FEATURES ↓
 
 .section__tag {
     font-size: 16px;
+    margin-top: 4vh;
     color: #6415ff;
     letter-spacing: 1.6px;
     font-weight: 700;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
 }
 
 .section__para {
@@ -511,9 +514,16 @@ QUALITY WORK ↓
     width: 50%;
 }
 
+.quality__description {
+    align-items: center;
+    text-align: center;
+}
+
 #quality .btn {
     margin-top: 32px;
+    margin-bottom: 32px;
 }
+
 
 
 
@@ -589,7 +599,7 @@ STEPS ↓
 
 .steps__description {
     padding: 32px 0 ;
-    padding-left: 64px;
+    
 
 }
 
@@ -743,7 +753,7 @@ PRICING ↓
     background-color: rgb(255 255 255);
     padding-left: 2rem;
     padding-right: 2rem;
-    margin-right: 2rem;
+    
     padding-top: 0.5rem;
     text-align: center;
     color: rgb(26 32 44);
@@ -1312,12 +1322,19 @@ MOBILE RESPONSIVENESS ↓
         flex-direction: column;
         align-items: center;
     }
+        .section__title {
+        font-size: 36px;
+        
+    }
 }
 
 @media(max-width: 768px) {
     #quality .row,
     #values .row {
         flex-direction: column-reverse;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
     }
     #steps .row,
     #testimonials .row {
@@ -1326,6 +1343,13 @@ MOBILE RESPONSIVENESS ↓
     }
     #pricing .row {
         margin-top: 40px;
+    }
+    #quality .section__title{
+       font-size: 36px;
+        text-align: center;
+    }
+    #steps .section__title {
+        text-align: center;
     }
     .values__img {
                 width: 100%;
