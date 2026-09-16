@@ -439,6 +439,7 @@ FEATURES ↓
     line-height: 1.5;
     margin: 16px 0;
     letter-spacing: 0.025em;
+    text-align: center;
 }
 
 .feature__para {
@@ -558,6 +559,11 @@ STEPS ↓
     flex-direction: column;
     margin-left: 24px;
     max-width: 320px;
+}
+
+.steps__list {
+    padding: 32px 0;
+    padding-left: 64px;
 }
 
 .step__title {
